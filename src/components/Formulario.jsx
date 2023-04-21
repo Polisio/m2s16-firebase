@@ -23,16 +23,16 @@ function Formulario() {
         console.log("documento agregado con el ID", docRef.id);
     }
 
-    const limpiarFormulario = () => {
-        setFormulario(
-            {
-                nombre:'',
-                cuantos:'',
-                fecha: ''
-            }
-        );
-        console.log(formulario);
-    }
+    // const limpiarFormulario = () => {
+    //     setFormulario(
+    //         {
+    //             nombre:'',
+    //             cuantos:'',
+    //             fecha: ''
+    //         }
+    //     );
+    //     console.log(formulario);
+    // }
 
     return ( 
             <form onSubmit={guardarReservacion}>
